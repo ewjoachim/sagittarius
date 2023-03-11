@@ -18,7 +18,6 @@ django-ordered-model = "^3.7"
 ruff = "*"
 black = "*"
 django-extensions = "*"
-django-debug-toolbar = "*"
 
 [build-system]
 requires = ["poetry-core"]

@@ -135,22 +135,6 @@ pyuca = ["pyuca"]
 test = ["djangorestframework", "graphene-django", "pytest", "pytest-cov", "pytest-django"]
 
 [[package]]
-name = "django-debug-toolbar"
-version = "3.8.1"
-description = "A configurable set of panels that display various debug information about the current request/response."
-category = "dev"
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "django_debug_toolbar-3.8.1-py3-none-any.whl", hash = "sha256:879f8a4672d41621c06a4d322dcffa630fc4df056cada6e417ed01db0e5e0478"},
-    {file = "django_debug_toolbar-3.8.1.tar.gz", hash = "sha256:24ef1a7d44d25e60d7951e378454c6509bf536dce7e7d9d36e7c387db499bc27"},
-]
-
-[package.dependencies]
-django = ">=3.2.4"
-sqlparse = ">=0.2"
-
-[[package]]
 name = "django-extensions"
 version = "3.2.1"
 description = "Extensions for Django"
@@ -335,4 +319,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.10.*"
-content-hash = "b613360cfb7abb4eeaec5f0e27a676aba6ade10858ce8fe2caa85672ea901611"
+content-hash = "877a952895899d21c40be04b7dab60dd3e29b85e83624faf5f99dab6cea7f888"

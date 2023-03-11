@@ -46,9 +46,8 @@ INSTALLED_APPS = [
     "sagittarius.organize",
     "sagittarius.rules",
     "sagittarius.judge",
-    # Debug
+    # Misc
     "django_extensions",
-    "django_debug_toolbar",
 ]
 
 MIDDLEWARE = [
@@ -61,7 +60,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "sagittarius.urls"
+ROOT_URLCONF = "sagittarius.project.urls"
 
 TEMPLATES = [
     {
@@ -132,6 +131,6 @@ STATIC_URL = "static/"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = "django.db.models.UUIDField"
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-AUTH_USER_MODEL = "sagittarius.core.models.User"
+AUTH_USER_MODEL = "core.User"
